@@ -7,3 +7,4 @@ More complex ways i usally resolve with the pandas libary but in this way i keep
 There is a small loop added becaus if i read influxdb into grafana it really needs to be assigned as a float otherways it will only be readable by 
 
 
+[The script template is called run.py]https://github.com/Benjamin-Italiaander/curl_json_dump_to_influx_python/blob/main/run.py
