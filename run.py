@@ -23,7 +23,7 @@ json_str = json.loads(resp.data.decode('utf-8'))
 current_time = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
 
 # Change sring into float
-# I experienced influx did not read the keys as number. So i make a small loop in order to change the type in this specific case to fload.
+# I experienced influx did not read the keys as number. So i make a small loop in order to change the type in this specific case to a float.
 for key in json_str:
     json_str[key] = float(json_str[key])
 
