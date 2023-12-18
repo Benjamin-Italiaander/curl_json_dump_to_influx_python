@@ -1,7 +1,7 @@
 # I still need to make a household to remove data after a specific time 
 # not sure how to build a standard template for this
 
-
+#Some inpiration here >>>>> 
 SHOW MEASUREMENTS ON "<db_name> eg: homeassistant"
 SHOW TAG KEYS ON "<db_name>" FROM "<measurement_name> eg: °C"
 
